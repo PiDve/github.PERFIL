@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perfil Odontologia</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <table border="0">
+        <tr>
+            <th class="button_menu">
+                <a href="index.html">MENU</a>
+            </th>
+
+            <th>
+                <a href="cadastro_cliente.html">CADASTRO DE CLIENTE</a>
+            </th>
+
+            <th>
+                <a href="lista_cliente.html">LISTA DE CLIENTES</a>
+            </th>
+
+            <th>
+                <a href="agendar_cliente.html">AGENDAR CLIENTE</a>
+            </th>
+
+            <th>
+                <a href="lista_agenda.html">LISTA DE AGENDAMENTOS</a>
+            </th>
+
+        </tr>
+
+    </table>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-x5-12">
+                <div class="well">
+
+                    <div name="Formulário" action="" method="post">
+                        <h1> AGENDAR CLIENTES </h1>
+                        <div class="form-group">
+                            <label>DATA DA CONSULTA: </label> <input type="date" class="form-control">
+                        </div>
+                        <div class="form-group"></div>
+                        <p class="Pag">
+                            <label>PAGAMENTO REALIZADO: </label> <input type="text" required="required" placeholder="SIM/ NÃO:" name="numbers" pattern="[0-9]+$" class="form-control" />
+                    </div>
+                    </p>
+                    <div class="form-group">
+                        <P class="Tipo_consult">
+
+                            <label>TIPO DE  CONSULTA: </label>
+                            <textarea name="Tipo de Consulta" placeholder="Digite o tipo de consulta:" class="form-control"></textarea >
+ </div>
+</P>
+
+ <P class="enviar">
+ <input type="submit" name="Enviar"  value="Enviar"  class="btn btn-primary " class="form-control"> 
+ </P>
+</div>
+ </div>
+ </div>
+</div>    
+</body>
+</html>
